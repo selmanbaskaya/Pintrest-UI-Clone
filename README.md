@@ -1,23 +1,10 @@
-# vue-pintrest
+## Pintrest UX Clone in VueJS and Vuetify
+![](codeStatus.gif)
 
-## Project setup
+### Project setup & Compiles and hot-reloads for development
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```
 
 ### Customize configuration
