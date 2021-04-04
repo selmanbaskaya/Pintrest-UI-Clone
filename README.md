@@ -1,5 +1,5 @@
 ## Pintrest UX Clone in VueJS and Vuetify
-![](codeStatus.gif)
+![](codeStatus-upd.gif)
 
 ### Project setup & Compiles and hot-reloads for development
 ```
