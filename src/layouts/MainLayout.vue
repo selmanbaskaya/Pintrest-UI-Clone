@@ -117,21 +117,31 @@ i
           </v-flex>
         </v-layout>
       </v-card>
-      <v-layout align-center>
-        <v-card elevation="5">
-          <v-layout>
-            <v-avatar>
+      <v-layout align-center class="my-8 mx-3">
+        <v-card
+          elevation="3"
+          style="border-radius: 10px;"
+        >
+          <v-list-item>
+            <v-list-item-avatar>
               <v-img
                 src="https://images.unsplash.com/photo-1610024062303-e355e94c7a8c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjd8fHByb2ZpbGUlMjBpbWFnZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
               />
-            </v-avatar>
-            <v-flex class="ml-2">
-              <div class="subtitle-2">
+            </v-list-item-avatar>
+            <v-list-item-content>
+              <v-list-item-title class="subtitle-2">
                 Selman Baskaya
-              </div>
-              <div class="body-2 greyy--text">Software Engineer</div>
-            </v-flex>
-          </v-layout>
+              </v-list-item-title>
+              <v-list-item-subtitle>
+                Software Engineer
+              </v-list-item-subtitle>
+            </v-list-item-content>
+            <v-list-item-action>
+              <v-icon>
+                mdi-chevron-right
+              </v-icon>
+            </v-list-item-action>
+          </v-list-item>
         </v-card>
       </v-layout>
     </v-navigation-drawer>
