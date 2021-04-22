@@ -6,9 +6,9 @@ export default {
   data() {
     return {
       mainItems: [
-        { title: "Home", icon: "mdi-view-dashboard" },
-        { title: "Recent", icon: "mdi-image" },
-        { title: "Following", icon: "mdi-help-box" },
+        { title: "Home", icon: "mdi-home" },
+        { title: "Recent", icon: "mdi-clock-time-three" },
+        { title: "Following", icon: "mdi-account-group" },
       ],
       insightsItems: [
         {
@@ -40,7 +40,7 @@ i
         </v-flex>
         <v-btn class="mx-1 ml-4">
           <v-icon>
-            mdi-account
+            mdi-compare-vertical
           </v-icon>
         </v-btn>
         <v-btn class="ml-3" dark>
@@ -97,7 +97,7 @@ i
             color="orange"
             class="white--text"
           >
-            2
+            <v-flex text-center>2</v-flex>
           </v-list-item-avatar>
         </v-list-item>
       </v-list>
@@ -118,10 +118,7 @@ i
         </v-layout>
       </v-card>
       <v-layout align-center class="my-8 mx-3">
-        <v-card
-          elevation="3"
-          style="border-radius: 10px;"
-        >
+        <v-card elevation="3" style="border-radius: 10px;">
           <v-list-item>
             <v-list-item-avatar>
               <v-img
