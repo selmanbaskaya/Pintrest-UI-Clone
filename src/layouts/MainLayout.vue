@@ -62,7 +62,7 @@ i
         </v-list-item-avatar>
         <v-list-item-content>
           <v-list-item-title class="title">
-            Pintrest
+            Pinterest
           </v-list-item-title>
         </v-list-item-content>
       </v-list-item>
